@@ -3,95 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Queen Xofficial</title>
+<title>Queen Xofficial Pro</title>
 
 <style>
-
 body{
-font-family: Arial;
-background:white;
-border:6px solid green;
 margin:0;
 padding:0;
+font-family: Arial, sans-serif;
+background:#fefefe;
+border:6px solid green;
 }
 
 /* HEADER */
-
 .header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:15px;
+padding:15px 20px;
+background: linear-gradient(90deg, #ff6a00, #ee0979);
+color:white;
 font-size:22px;
 font-weight:bold;
+position:sticky;
+top:0;
+z-index:10;
+box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .menu{
 font-size:28px;
 cursor:pointer;
+transition:0.3s;
+}
+
+.menu:hover{
+transform:rotate(90deg);
 }
 
 /* BOX */
-
 .box{
 border:2px solid red;
-padding:15px;
-margin:15px;
-border-radius:10px;
-background:#fafafa;
+padding:20px;
+margin:20px;
+border-radius:12px;
+background:#fff;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+line-height:1.6;
 }
 
 /* SERVICES */
-
 .services{
-line-height:30px;
+line-height:32px;
 font-weight:bold;
+font-size:16px;
 }
 
 /* BUTTON */
-
 .btn{
 display:block;
 width:90%;
-margin:10px auto;
-padding:12px;
+margin:15px auto;
+padding:15px;
 text-align:center;
-background:#25D366;
+background: linear-gradient(90deg,#25D366,#128C7E);
 color:white;
 font-weight:bold;
-border-radius:8px;
+border-radius:10px;
 text-decoration:none;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover{
+transform:scale(1.05);
 }
 
 /* FOOTER */
-
 .footer{
 text-align:center;
-margin:20px;
-font-size:13px;
+margin:25px;
+font-size:14px;
+color:#555;
 }
 
 /* CONTACT */
-
 #contact{
 display:none;
 }
 
+/* BACK BUTTON */
+.back-btn{
+background:#ff4e50;
+background: linear-gradient(90deg,#ff4e50,#f9d423);
+color:white;
+}
 </style>
 
 <script>
-
 function showContact(){
 document.getElementById("dashboard").style.display="none";
 document.getElementById("contact").style.display="block";
+window.scrollTo(0,0);
 }
 
 function showDashboard(){
 document.getElementById("dashboard").style.display="block";
 document.getElementById("contact").style.display="none";
+window.scrollTo(0,0);
 }
-
 </script>
 
 </head>
@@ -103,28 +122,19 @@ document.getElementById("contact").style.display="none";
 <div class="menu" onclick="showContact()">☰</div>
 </div>
 
-
 <!-- DASHBOARD -->
-
 <div id="dashboard">
 
 <div class="box">
-
 <b>Intro:</b><br><br>
-
 My name is Zahraa and I host this website.  
 If you like any category or want to start any online work, you can contact me.  
 You can see all works and services below.
-
 </div>
 
-
 <div class="box">
-
 <b>All Works & Services</b><br><br>
-
 <div class="services">
-
 ✧ Online Work on Pinterest & Apps 📱✨<br>
 ✧ Social Media Marketing for All Platforms 💻<br>
 ✧ Online Product Selling & Shops 👗<br>
@@ -135,76 +145,52 @@ You can see all works and services below.
 ✧ TikTok Viral Video Methods 🎬<br>
 ✧ Build Your Own Website for Personal Use Cheap Price 🌐<br>
 ✧ Secret Tricks Bundle for Mobile Users 🔑
-
 <br><br>
 ━━━━━━━━━━━━━✦━━━━━━━━━━━━━
-
 </div>
-
 </div>
-
 
 <a class="btn"
 href="https://wa.me/923243872642?text=Asalamulikum%20Madem%20G%20I%20came%20from%20your%20website%20I%20need%20work%20and%20service">
 Contact Zahra Madem
 </a>
 
-
 <a class="btn"
 href="https://wa.me/923243872642?text=Asalamulikum%20SD%20Bhai%20I%20came%20from%20your%20website%20I%20need%20work%20and%20service">
 Contact SD Bhai
 </a>
-
 
 <a class="btn"
 href="https://whatsapp.com/channel/0029VbCc8adKAwEi3QGdlz2u">
 ✧ QᴜᴇᴇɴXᴏꜰꜰɪᴄɪᴀʟ
 </a>
 
-
 <div class="footer">
 Develop by Zahra
 </div>
-
 </div>
-
-
 
 <!-- CONTACT PAGE -->
-
 <div id="contact">
 
-<button class="btn" onclick="showDashboard()">⬅ Back to Dashboard</button>
+<button class="btn back-btn" onclick="showDashboard()">⬅ Back to Dashboard</button>
 
 <div class="box">
-
 <b>Zahra & SD Bhai</b><br><br>
-
 Zahra Madam is a professional online service provider who helps people start online work easily.  
 SD Bhai supports clients and manages work services quickly.
-
 </div>
 
-
 <div class="box">
-
-📥 Interested? DM Now!
-
-<br><br>
-
+📥 Interested? DM Now!<br><br>
 ╔➤➤ Notr Box ➤➤╗<br>
-║ Name: Haya Queen ✨<br>
+║ Name: Zahra Queen ✨<br>
 ║ Contact: 03243872642 📱<br>
 ╚➤➤💎 Always Available 💎➤➤╝
-
 <br><br>
-
 ━━━━━━━━━━━━━✦━━━━━━━━━━━━━
-
 <br><br>
-
 ║ Emergency Contact: 03714019762 ☎️
-
 </div>
 
 </div>
